@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(24, 26, 27);
+  font-family: 'Helvetica', 'Arial', san-serif;
+}
+#editor-container {
+  width: 100%;
+  height: calc(100vh - 62px);
+  overflow: auto;
+  color: #fff;
+}
+.ql-editor {
+  height: auto;
+}
+.ql-toolbar {
+  background-color: rgb(24, 26, 27);
+}
+.ql-toolbar.ql-snow .ql-picker-label::before {
+  color: #fff;
+}
+.ql-snow .ql-stroke {
+  stroke: #fff;
+}
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="1"]::before, .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="2"]::before, .ql-snow .ql-picker.ql-header .ql-picker-item::before {
+  color: #000;
+}
